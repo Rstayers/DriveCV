@@ -4,7 +4,7 @@ This application analyzes dashcam footage to identify other vehicles, road lanes
 ## Dataset
 For this project, I am choosing to use [http://bdd-data.berkeley.edu/download.html](Berkely's DeepDrive dataset) 
 (BDD100K). I asked Claude Sonnet to produce five of the most used and modern datasets for training computer 
-vision applications for autonomous vehicles, and the top two were [https://www.nuscenes.org/nuscenes](NuScenes) and DeepDrive. NuScenes is a multi-modal dataset with 3D annotated bounding boxes, but lacks the amount of data that DeepDrive contains. After talking to professor Schreirer, I have chosen to go with DeepDrive as it has more documented use. 
+vision applications for autonomous vehicles, and the top two were [NuScenes](https://www.nuscenes.org/nuscenes) and DeepDrive. NuScenes is a multi-modal dataset with 3D annotated bounding boxes, but lacks the amount of data that DeepDrive contains. After talking to professor Schreirer, I have chosen to go with DeepDrive as it has more documented use. 
 ## High-Level Structure
 The basic structure of the project pipeline could be as follows: 
 
