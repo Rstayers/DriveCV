@@ -7,6 +7,8 @@ For this project, I am choosing to use [http://bdd-data.berkeley.edu/download.ht
 ## High-Level Structure
 The basic structure of the project pipeline could be as follows: 
 
+### Project Pipeline
+
 [Frame Preprocessing]
          ↓
    [Detection Module]
@@ -14,6 +16,7 @@ The basic structure of the project pipeline could be as follows:
     [Tracking Module]
          ↓
  [Visualization Module]
+
 
 ### Frame Preprocessing
 The first would be standard Machine Learning practices for preprocessing and formatting data. This could be standardizes resolutions, color adjustments, noise reductions or normalizations. I took a machine learning class last semester and this was always the first step (I have not dealt with video before so I do not know how it will differ)
