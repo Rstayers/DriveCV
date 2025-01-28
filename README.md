@@ -7,15 +7,14 @@ For this project, I am choosing to use [http://bdd-data.berkeley.edu/download.ht
 ## High-Level Structure
 The basic structure of the project pipeline could be as follows: 
 
-### Project Pipeline
 
-[Frame Preprocessing]
-         ↓
-   [Detection Module]
-         ↓
-    [Tracking Module]
-         ↓
- [Visualization Module]
+Frame Preprocessing  
+       ↓  
+Detection Module  
+       ↓  
+Tracking Module  
+       ↓  
+Visualization Module
 
 
 ### Frame Preprocessing
