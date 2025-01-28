@@ -2,7 +2,7 @@
 This application analyzes dashcam footage to identify other vehicles, road lanes, and relevant road signs in real-time using Computer Vision algorithms and techniques. It should be able to accuractely perform in many environments and scene conditions. 
 
 ## Dataset
-For this project, I am choosing to use [http://bdd-data.berkeley.edu/download.html](Berkely's DeepDrive dataset) 
+For this project, I am choosing to use [Berkeley's DeepDrive Dataset](http://bdd-data.berkeley.edu/download.html) 
 (BDD100K). I asked Claude Sonnet to produce five of the most used and modern datasets for training computer 
 vision applications for autonomous vehicles, and the top two were [NuScenes](https://www.nuscenes.org/nuscenes) and DeepDrive. NuScenes is a multi-modal dataset with 3D annotated bounding boxes, but lacks the amount of data that DeepDrive contains. After talking to professor Schreirer, I have chosen to go with DeepDrive as it has more documented use. 
 ## High-Level Structure
