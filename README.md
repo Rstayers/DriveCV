@@ -1,10 +1,11 @@
-# Project Overview
+# Part 1: Project Overview
 This application analyzes dashcam footage to identify other vehicles, road lanes, and relevant road signs in real-time using Computer Vision algorithms and techniques. It should be able to accuractely perform in many environments and scene conditions. 
 
 ## Dataset
 For this project, I am choosing to use [Berkeley's DeepDrive Dataset](http://bdd-data.berkeley.edu/download.html) 
 (BDD100K). I asked Claude Sonnet to produce five of the most used and modern datasets for training computer 
 vision applications for autonomous vehicles, and the top two were [NuScenes](https://www.nuscenes.org/nuscenes) and [DeepDrive](http://bdd-data.berkeley.edu/download.html) . NuScenes is a multi-modal dataset with 3D annotated bounding boxes, but lacks the amount of data that DeepDrive contains. After talking to professor Schreirer, I have chosen to go with DeepDrive as it has more documented use. 
+
 ## High-Level Structure
 The basic structure of the project pipeline could be as follows: 
 
@@ -20,3 +21,5 @@ The next step in my approach will be to develop a pipeline that will identitfy o
 The tracking module would then associate the detections across multiple frames to calculate trajectories and speeds to be passed onto the visualization. 
 ### Visulization Module
 This is the UI of the project that shows what the model is detecting in real time on the footage.
+
+# Part 2: Dataset 
